@@ -28,6 +28,7 @@
 }
 
 .header__logo{
+    
     padding-right: 185px;
 }
 
@@ -50,6 +51,14 @@
     font-weight: 400;
     font-style: normal;
     text-align: left;
+}
+
+.header__link{
+text-decoration: underline;
+}
+
+.header__link_active{
+    text-decoration: none;
 }
 
 .cover{
@@ -299,7 +308,7 @@ margin-bottom: 20px;
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
-    color: #000; 
+    color:#000; 
 }
 
 .footer{
@@ -307,6 +316,10 @@ margin-bottom: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.footer__menu-link_active{
+    text-decoration: none;
 }
 
 .footer__menu-list{
