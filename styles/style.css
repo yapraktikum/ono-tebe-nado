@@ -68,11 +68,10 @@ text-decoration: underline;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    min-height: 757px;
 }
     
 .overlay{
-    background-color: rgba(0, 0, 0, .5);
+    background-color: rgba(0, 0, 0, .6);
     position: absolute;
     z-index: 0;
     inset: 0;
@@ -88,7 +87,7 @@ text-decoration: underline;
 .cover__title{
     color: #fff;
     text-transform: uppercase;
-    font-family: Raleway, sans-serif;
+    font-family: Raleway, Arial, sans-serif;
     line-height: 110px;
     font-size: 100px;
     font-weight: 700;
@@ -151,7 +150,7 @@ margin-bottom: 20px;
 
 .bet-button{
     background-color: transparent;
-    font-family: Raleway, sans-serif;
+    font-family: Raleway, Arial, sans-serif;
     font-weight: 500;
     font-size: 22px;
     line-height: 26px;
@@ -215,15 +214,15 @@ margin-bottom: 20px;
     z-index: -1;
 }
 .lots__card-list-item{
-    height: auto;
+    min-height: 563px;
 }
 
 .lots__card-list{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-start;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 25px;
     list-style-type: none;
     position: relative;
     z-index: 1;
@@ -353,7 +352,7 @@ list-style-type: none;
 }
 
 .footer__menu-list-item{
-    font-family: Raleway, sans-serif;
+    font-family: Raleway, Arial, sans-serif;
     font-weight: 400;
     font-size: 18px;
     line-height: 21.13px;
